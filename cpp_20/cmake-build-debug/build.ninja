@@ -46,8 +46,8 @@ cmake_ninja_workdir = /Users/ihababadi/Desktop/workshop_cpp_19_november/cpp_20/c
 
 build cmake_object_order_depends_target_cpp_20: phony || CMakeFiles/cpp_20.dir
 
-build CMakeFiles/cpp_20.dir/download.cpp.o: CXX_COMPILER__cpp_20_Debug /Users/ihababadi/Desktop/workshop_cpp_19_november/cpp_20/download.cpp || cmake_object_order_depends_target_cpp_20
-  DEP_FILE = CMakeFiles/cpp_20.dir/download.cpp.o.d
+build CMakeFiles/cpp_20.dir/solution_workshop_3_s_3.cpp.o: CXX_COMPILER__cpp_20_Debug /Users/ihababadi/Desktop/workshop_cpp_19_november/cpp_20/solution_workshop_3_s_3.cpp || cmake_object_order_depends_target_cpp_20
+  DEP_FILE = CMakeFiles/cpp_20.dir/solution_workshop_3_s_3.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/cpp_20.dir
   OBJECT_FILE_DIR = CMakeFiles/cpp_20.dir
@@ -60,7 +60,7 @@ build CMakeFiles/cpp_20.dir/download.cpp.o: CXX_COMPILER__cpp_20_Debug /Users/ih
 #############################################
 # Link the executable cpp_20
 
-build cpp_20: CXX_EXECUTABLE_LINKER__cpp_20_Debug CMakeFiles/cpp_20.dir/download.cpp.o | /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib/libcurl.tbd
+build cpp_20: CXX_EXECUTABLE_LINKER__cpp_20_Debug CMakeFiles/cpp_20.dir/solution_workshop_3_s_3.cpp.o | /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib/libcurl.tbd
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
   LINK_LIBRARIES = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib/libcurl.tbd
   OBJECT_DIR = CMakeFiles/cpp_20.dir
