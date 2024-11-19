@@ -121,7 +121,7 @@ void parallelAlgorithmsDemo() {
 
     // Parallel sum (std::execution::par)
     start = std::chrono::high_resolution_clock::now();
-    long long parSum = std::reduce(std::execution::par, data.begin(), data.end(), 0LL);
+    long long parSum = std::reduce(std::execution::par_unseq, data.begin(), data.end(), 0LL);
     end = std::chrono::high_resolution_clock::now();
     auto parDuration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
     std::cout << "Parallel sum: " << parSum << " (Time: " << parDuration << " ms)" << std::endl;
