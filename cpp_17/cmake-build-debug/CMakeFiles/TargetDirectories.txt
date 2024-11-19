@@ -1,0 +1,3 @@
+/Users/ihababadi/Desktop/workshop_cpp_19_november/cpp_17/cmake-build-debug/CMakeFiles/cpp_17.dir
+/Users/ihababadi/Desktop/workshop_cpp_19_november/cpp_17/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ihababadi/Desktop/workshop_cpp_19_november/cpp_17/cmake-build-debug/CMakeFiles/rebuild_cache.dir
